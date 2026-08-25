@@ -30,11 +30,11 @@ This pre-loaded curvature ensures the blades make contact at only a single movin
 
 
 ## Decide
-Homepage Identity-
+Homepage Identity: The homepage establishes immediate context for peer reviewers and engineering evaluators by outlining the structure, technical standards, and navigation of this document repository. It provides a clear roadmap of the coursework and governing standards, enabling a grader or technical reader to locate specific analytical models and verification files efficiently.
 
-Intentional Customization-
+Intentional Customization: The main heading font color was changed to blue and the course code prefix in all section headers was corrected from "MEGR 2157" to "MEGR 2156" to establish clear visual hierarchy and maintain administrative accuracy. This modification satisfies the requirement for high-contrast header readability and precise documentation metadata, resolving the default template's low-contrast styling and incorrect course numbering that previously created navigation difficulty and course identification ambiguity for reviewers. 
 
-Documentation Standard-
+Documentation Standard: Every assignment in this portfolio will include explicit governing physical equations, state all underlying mechanical assumptions, and present complete data traceability so that any engineering colleague can independently replicate the results.
 
 ## Communicate
 See "About Me" Tab
