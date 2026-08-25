@@ -10,6 +10,10 @@ https://elchun.github.io/project_pages/maker_portfolio.html
 
 This portfolio is easy to navigate because the projects are separated into individual pages and can be found quickly from the main portfolio page. There is enough information to understand what each project does, but it does not include enough dimensions, files, or step-by-step procedures for another person to reproduce the work without asking questions. The portfolio does show some evidence of reasoning because the author explains parts of the design process, the purpose of the projects, and some of the decisions made during development instead of only showing the final result. The language and layout are appropriate for an engineering portfolio because the pages stay focused on the projects, use technical descriptions, and include images and documentation that help explain the work.
 
+[Scissors 1](IMG_8373.jpg)
+
+[Scissors 2](IMG_8374.jpg)
+
 
 ## Decide
 
