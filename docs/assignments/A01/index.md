@@ -1,6 +1,5 @@
 # A1 – [Topic]
 
-## Objective
 ## Analyze
 https://fwachter.github.io/
 
@@ -23,8 +22,19 @@ The primary engineering function of the scissors is to apply opposing shear forc
 The governing model is the moment relationship (F_{in}d_{in}=F_{cut}d_{cut}). Here, (F_{in}) is the hand force, (d_{in}) is the distance from the pivot to the hand, (F_{cut}) is the cutting force, and (d_{cut}) is the distance from the pivot to the cutting point.
 
 One assumption is that the blades and handles act as rigid bodies and do not significantly bend during use.
-## Decide
 
+Alternative one: Razor Blade 
+Alternative two: Paper Cutter 
+
+This pre-loaded curvature ensures the blades make contact at only a single moving point along the cutting edge, maintaining high localized shearing force and preventing thin materials from binding or slipping between the blades during operation. 
+
+
+## Decide
+Homepage Identity-
+
+Intentional Customization-
+
+Documentation Standard-
 
 ## Communicate
-
+See "About Me" Tab
