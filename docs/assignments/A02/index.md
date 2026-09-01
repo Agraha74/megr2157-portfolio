@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-<img width="2000" height="2000" alt= Screenshot 2026-09-01 023630.jpg"" src= Screenshot 2026-09-01 023630.jpg"">
+<img width="2000" height="2000" alt="Screenshot-2026-09-01-023630.jpeg" src="Screenshot-2026-09-01-023630.jpeg">
 
 ## Analyze
 
