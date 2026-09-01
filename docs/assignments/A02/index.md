@@ -46,6 +46,8 @@ With the truss members and pins fully sized, I created the truss in CAD using th
 
 <img width="500" height="500" alt="Screenshot-2026-09-01-041924.jpeg" src="Screenshot-2026-09-01-041924.jpeg">
 
+<img width="500" height="500" alt="Screenshot-2026-09-01-052720.jpeg" src="Screenshot-2026-09-01-052720.jpeg">
+
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
