@@ -42,8 +42,8 @@ The known values were first identified, including the 300 N applied force, a saf
 Next, the bending stress and cantilever beam deflection equations were solved symbolically. For the stress analysis, the rectangular moment of inertia and bending equation were combined to solve for the required thickness, h. The deflection equation was also rearranged to solve for the minimum thickness needed to keep the deflection below 0.30 mm.
 <img width="500" height="500" alt="IMG_8442.jpeg" src="IMG_8442.jpeg">
 For the numerical analysis, a width and length of 35 mm were selected for Feature 1. The PETG material properties and design requirements were substituted into the symbolic equations. The stress calculation resulted in a minimum thickness of 10.25 mm, while the deflection calculation resulted in a minimum thickness of 11.74 mm.
-<img width="500" height="500" alt="IMG_8443.jpeg" src="IMG_8443.jpeg">
-Since the deflection analysis required the larger minimum thickness of 11.74 mm, deflection controlled the design. A final thickness of 15 mm was selected to provide additional design margin above the calculated minimum. The final dimensions of Feature 1 were selected as 35 mm × 35 mm × 15 mm.
+<img width="500" height="500" alt="IMG_B61451C6.jpeg" src="IMG_B61451C6.jpeg">
+Since the deflection analysis required the larger minimum thickness of 11.74 mm, deflection controlled the design. A final thickness of 12 mm was selected to provide additional design margin above the calculated minimum. The final dimensions of Feature 1 were selected as 35 mm × 35 mm × 12 mm.
 
 ## Feature 2
 Feature 2 is the vertical portion of the motor mount that attaches the mount to the rigid wall. The load on Feature 1 creates a moment that is transferred into Feature 2. The goal was to determine the cross-sectional geometry that would keep Feature 2 below both the allowable stress and maximum deflection.
@@ -61,10 +61,23 @@ Since the deflection analysis required the larger thickness, deflection controll
 
 The final dimensions selected for Feature 2 were 35 mm × 35 mm × 15 mm.
 
+## Paper Iso View
+
+An isometric sketch of the motor mount was created using the dimensions determined from the Feature 1 and Feature 2 calculations. The sketch was used as a reference before creating the final CAD model.
+
+<img width="500" height="500" alt="IMG_403D0AF2.jpeg" src="IMG_403D0AF2.jpeg">
+
+## CAD
+The motor mount was modeled in SolidWorks using the dimensions determined from the hand calculations. The final model combines Feature 1 and Feature 2 into one mount and includes the required holes for attaching the motor and mounting the bracket.
+
+<img width="500" height="500" alt="Screenshot 2026-09-15 013058.jpg" src="Screenshot 2026-09-15 013058.jpg">
+
+I used a 12 mm thickness for the mount based on beam bending and deflection calculations. The thicker sections increase the mount's stiffness and help keep displacement below the maximum allowable value of 0.30 mm.
+
+<img width="500" height="500" alt="Screenshot 2026-09-15 012618.jpg" src="Screenshot 2026-09-15 012618.jpg">
+
+A static simulation was performed to check the final design under the 300 N applied load. The maximum displacement was approximately 0.015 mm, which is well below the maximum allowable displacement of 0.30 mm. This shows that the final CAD design meets the deflection requirement.
 
 
-
-## Decide
-
-## Communicate
+[Megr 2156 A4.SLDPRT](https://github.com/Agraha74/megr2157-portfolio/blob/main/docs/assignments/A04/MEGR%202156%20A4.SLDPRT)
 
