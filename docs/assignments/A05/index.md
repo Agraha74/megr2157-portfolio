@@ -4,8 +4,6 @@
 
 The objective of this project is to design a structural bracket capable of supporting the required applied load using strength and stiffness analysis. Free-body diagrams, normal and bending stress equations, and deflection equations are used to determine the minimum dimensions of each feature while maintaining the required factor of safety and deflection limit.
 
----
-
 # Design Inputs
 
 For this project, I selected an applied load of:
@@ -32,17 +30,13 @@ The required factor of safety is:
 
 N = 4
 
-Therefore, the allowable stress is:
-
-sigma_allow = \frac{S_y}{N}
+The allowable stress is:
 
 sigma_allow = 10,000 psi
 
 The maximum allowable deflection for each feature is:
 
 delta_allow= 0.005 in
-
----
 
 # Feature A
 
@@ -82,8 +76,7 @@ Assumptions
 - The cross section is constant.
 - Deflections are assumed to be small.
 
-<img width="500" alt="Feature A Free Body Diagram" src="INSERT-IMAGE-HERE">
-
+<img width="500" height="500" alt="IMG_033.jpeg" src="IMG_033.jpeg">
 
 # Feature B
 
@@ -120,7 +113,7 @@ t_B=?
 - Aluminum remains within the linear-elastic range.
 - Deformations are small.
 
-<img width="500" alt="Feature B Free Body Diagram" src="INSERT-IMAGE-HERE">
+<img width="500" height="500" alt="IMG_40.jpeg" src="IMG_40.jpeg">
 
 # Feature C
 
@@ -146,10 +139,6 @@ delta_allow=0.005 in
 
 h_C=?
 
-I_C=?
-
-Z_C=?
-
 ## Assumptions
 
 - Feature C is treated as a simply supported beam.
@@ -162,7 +151,7 @@ Z_C=?
 - Deflections are small.
 
 
-<img width="500" alt="Feature C Free Body Diagram" src="INSERT-IMAGE-HERE">
+<img width="500" height="500" alt="IMG_C9.jpeg" src="IMG_C9.jpeg">
 
 
 # Feature D
@@ -201,17 +190,17 @@ t_D=?
 ## Assumptions
 
 - Feature D is treated as an axially loaded member.
-- The 700 lbf load acts through the centroid of the cross section.
+- The 700 lbf load acts through the centroid of the cross-section.
 - Bending is neglected.
 - Direct shear failure is neglected.
-- The cross section is constant.
+- The cross-section is constant.
 - Aluminum 6061-T6 remains in the linear-elastic range.
 - Deflections are small.
 
 
 **Insert Feature D FBD here**
 
-<img width="500" alt="Feature D Free Body Diagram" src="INSERT-IMAGE-HERE">
+<img width="500" height="500" alt="IMG_FA.jpeg" src="IMG_FA.jpeg">
 
 
 
@@ -247,7 +236,7 @@ t_E=?
 - Shear deformation is neglected.
 - Deflections are small.
 
-<img width="500" alt="Feature E Free Body Diagram" src="INSERT-IMAGE-HERE">
+<img width="500" height="500" alt="IMG_AF.jpeg" src="IMG_AF.jpeg">
 
 
 # Overall Stress and Stiffness Comparison
@@ -260,133 +249,16 @@ t_E=?
 | D | 0.056 in | 0.0112 in | Stress | 0.0625 in |
 | E | 0.056 in | 0.0112 in | Stress | 0.0625 in |
 
-The final dimension for each feature will be selected using:
-
-
-D_final=max(D_{stress}/D_{stiffness})
-
-
----
-
-# Initial CAD Design
-
-The calculated feature dimensions will be used to create the first CAD model of the bracket.
-
-**Insert initial CAD model here**
-
-<img width="600" alt="Initial CAD Design" src="INSERT-IMAGE-HERE">
-
----
-
-# Initial CAD Evaluation
-
-The initial CAD model will be evaluated to determine whether the calculated dimensions fit together correctly and whether any geometry needs to be changed for manufacturing, clearances, or fit requirements.
-
-**Insert CAD evaluation image here**
-
-<img width="600" alt="Initial CAD Evaluation" src="INSERT-IMAGE-HERE">
-
----
-
-# Final Design Revision
-
-After evaluating the initial CAD model, any necessary dimensional or geometric changes will be made.
-
-**Insert revised CAD model here**
-
-<img width="600" alt="Final Design Revision" src="INSERT-IMAGE-HERE">
-
----
 
 # Decide
-
-## Final Design
-
-The final bracket will use the dimensions that satisfy both the stress and stiffness requirements while maintaining proper fit with the rigid T-beam.
-
-**Insert final CAD model here**
-
-<img width="600" alt="Final CAD Design" src="INSERT-IMAGE-HERE">
-
----
-
-## Final Stress Check
-
-Each final CAD dimension will be substituted back into the appropriate stress equation.
-
-The requirement for every feature is:
-
-\[
-\boxed{
-\sigma_{actual}
-\leq
-\sigma_{allow}
-}
-\]
-
-where:
-
-\[
-\boxed{\sigma_{allow}=10,000\text{ psi}}
-\]
-
-**Insert final stress calculations or SolidWorks results here**
-
-<img width="600" alt="Final Stress Check" src="INSERT-IMAGE-HERE">
-
----
-
-## Final Stiffness Check
-
-Each final CAD dimension will also be checked against the maximum allowable deflection:
-
-\[
-\boxed{
-\delta_{actual}
-\leq
-0.005\text{ in}
-}
-\]
-
-**Insert final displacement calculations or SolidWorks results here**
-
-<img width="600" alt="Final Stiffness Check" src="INSERT-IMAGE-HERE">
-
----
-
-# Communicate
-
-## Final Design Communication
-
-The final design was developed by tracing the 1400 lbf strap load through each structural feature and determining the minimum dimensions required by both strength and stiffness. The larger requirement for each feature was used to establish the final geometry.
-
-**Insert final isometric CAD image here**
-
-<img width="600" alt="Final Design" src="INSERT-IMAGE-HERE">
-
-### CAD Download
-
-[Download Final CAD Model](INSERT-CAD-LINK-HERE)
-
----
 
 # Multiview Drawings
 
 Two detailed multiview drawings will be included: one showing the dimensions determined from stress analysis and one showing the dimensions determined from stiffness analysis.
 
-## Stress-Based Multiview Drawing
+<img width="715" height="762" alt="IMG_57.jpeg" src="IMG_57.jpeg" />
 
-**Insert stress multiview drawing here**
-
-<img width="600" alt="Stress Multiview Drawing" src="INSERT-IMAGE-HERE">
-
-## Stiffness-Based Multiview Drawing
-
-**Insert stiffness multiview drawing here**
-
-<img width="600" alt="Stiffness Multiview Drawing" src="INSERT-IMAGE-HERE">
-
----
+<img width="715" height="762" alt="IMG_1160.jpeg" src="IMG_1160.jpeg" />
 
 # Lessons Learned
 
@@ -396,23 +268,15 @@ For the features completed so far, stress has governed the required dimensions.
 
 Feature A:
 
-\[
-d_{stress}=1.13\text{ in}
-\]
+d_stress=1.13 in
 
-\[
-d_{stiffness}=0.87\text{ in}
-\]
+d_stiffness=0.87in 
 
 Feature C:
 
-\[
-h_{stress}=0.820\text{ in}
-\]
+h_stress=0.820 in
 
-\[
-h_{stiffness}=0.710\text{ in}
-\]
+h_stiffness=0.710 in
 
 This demonstrates that both strength and stiffness calculations are necessary because either requirement could potentially control the final design.
 
@@ -422,21 +286,10 @@ The forces found in one feature are used as the applied loads for the next featu
 
 ## Assumption Sensitivity
 
-One major assumption in the project is that direct shear failure and shear deflection are negligible. If shear effects were included, additional deformation and stress could increase the required dimensions of some features.
-
-## Mistakes and Design Changes
-
-**Add mistakes or corrections made during the project here.**
-
-Example:
-
-> During the design process, I initially had to determine how each feature should be modeled. Reviewing the assignment appendices helped identify Feature A as a cantilever, Feature B as an axially loaded member, and Feature C as a simply supported beam.
+One major assumption in the project is that direct shear failure and shear deflection are negligible. If shear effects were included, additional deformation and stress could increase the required dimensions of some features. 
 
 ## Project Time
 
-Total time spent on the project:
-
-\[
-\boxed{\text{TBD}}
+Total time spent on the project: 7 hours 
 \]
 
