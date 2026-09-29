@@ -51,5 +51,5 @@ For tolerances, I used a tighter tolerance on the 0.498 in T-beam mating feature
 ## Communicate
 This project took me 4 hours
 
-[Cad & Darwing]: (https://github.com/Agraha74/megr2157-portfolio/blob/main/docs/assignments/A06/Megr%202157%20A6.SLDPRT)
-(https://github.com/Agraha74/megr2157-portfolio/blob/main/docs/assignments/A06/Megr%202157%20A6.SLDDRW)
+[Cad](https://github.com/Agraha74/megr2157-portfolio/blob/main/docs/assignments/A06/Megr%202157%20A6.SLDPRT)
+[Drawing](https://github.com/Agraha74/megr2157-portfolio/blob/main/docs/assignments/A06/Megr%202157%20A6.SLDDRW)
