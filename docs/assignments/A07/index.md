@@ -177,10 +177,12 @@ For run 3, the mesh contained 857,837 elements. The maximum von Mises stress was
 <img width="500" height="500" alt="Screenshot 2026-10-24 204618.jpg" src="Screenshot 2026-10-24 204618.jpg">
 
 D3 – Resulting data
+
 <img width="500" height="500" alt="A7_Design_3_Results.jpg" src="A7_Design_3_Results.jpg">
 
 
 Mass: 1.21 lb.
+
 Design 3 – Discussion about data and changes
 The thicker support made the largest difference. At the finest mesh, the displacement was down to 0.01493 in, and the maximum stress was 62,800 psi. The stress was much lower than in the first two designs, but the minimum factor of safety still came out to 0.64. The medium mesh had suggested a factor of safety of about 1.1; the finer mesh revealed a higher peak stress and a lower safety factor. This was an important reminder that results 
 from one mesh are not enough to justify a design.
