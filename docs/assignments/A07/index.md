@@ -140,34 +140,43 @@ Adding the support reduced the finest-mesh displacement from 1.333 in to 0.7192 
 
 # Design 3 – Wider, reinforced support
 For Design 3, I changed the geometry more significantly. I added material around the upper mounting section and made the load path down to the cylinder wider and more continuous. This was intended to reduce bending and spread the applied load over a larger area. The extra material also made this the heaviest design.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 202424.png — Design 3 CAD model and mass properties (1.21 lb). Insert your own GitHub image Markdown beneath this comment. -->
+<img width="500" height="500" alt="Screenshot 2026-10-24 202424.jpg" src="Screenshot 2026-10-24 202424.jpg">
 
 D3-1 – Coarse mesh
 For run 1, the mesh contained 17,408 elements. The maximum von Mises stress was 40,210 psi, the maximum displacement was 0.01442 in, and the minimum factor of safety was 0.992.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 202623.png — Design 3, run 1: mesh details and element count. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 202709.png — Design 3, run 1: von Mises stress plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 202743.png — Design 3, run 1: displacement plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 202821.png — Design 3, run 1: factor-of-safety plot. Insert your own GitHub image Markdown beneath this comment. -->
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 202623.jpg" src="Screenshot 2026-10-24 202623.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 202709.jpg" src="Screenshot 2026-10-24 202709.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 202743.jpg" src="Screenshot 2026-10-24 202743.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 202821.jpg" src="Screenshot 2026-10-24 202821.jpg">
 
 D3-2 – Medium mesh
 For run 2, the mesh contained 128,825 elements. The maximum von Mises stress was 37,080 psi, the maximum displacement was 0.01475 in, and the minimum factor of safety was 1.076.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 203624.png — Design 3, run 2: mesh details and element count. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 203748.png — Design 3, run 2: von Mises stress plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 203818.png — Design 3, run 2: displacement plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 203841.png — Design 3, run 2: factor-of-safety plot. Insert your own GitHub image Markdown beneath this comment. -->
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 203624.jpg" src="Screenshot 2026-10-24 203624.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 203748.jpg" src="Screenshot 2026-10-24 203748.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 203818.jpg" src="Screenshot 2026-10-24 203818.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 203841.jpg" src="Screenshot 2026-10-24 203841.jpg">
 
 D3-3 – Finest mesh
 For run 3, the mesh contained 857,837 elements. The maximum von Mises stress was 62,800 psi, the maximum displacement was 0.01493 in, and the minimum factor of safety was 0.64.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 203938.png — Design 3, run 3: mesh details and element count. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 204458.png — Design 3, run 3: von Mises stress plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 204524.png — Design 3, run 3: displacement plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-24 204618.png — Design 3, run 3: factor-of-safety plot. Insert your own GitHub image Markdown beneath this comment. -->
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 203938.jpg" src="Screenshot 2026-10-24 203938.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 204458.jpg" src="Screenshot 2026-10-24 204458.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 204524.jpg" src="Screenshot 2026-10-24 204524.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-24 204618.jpg" src="Screenshot 2026-10-24 204618.jpg">
 
 D3 – Resulting data
-Simulation	Elements	Max. stress (psi)	Max. displacement (in)	Min. FOS	Stress change	Displacement change
-1	17,408	40,210	0.01442	0.992	—	—
-2	128,825	37,080	0.01475	1.076	7.78%	2.29%
-3	857,837	62,800	0.01493	0.64	69.36%	1.22%
+<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
 
 
 Mass: 1.21 lb.
@@ -176,22 +185,11 @@ The thicker support made the largest difference. At the finest mesh the displace
 from one mesh are not enough to justify a design.
 
 # Final design comparison
-This table uses run 3 (the finest documented mesh) from each design.
-Result	Design 1	Design 2	Design 3
-Maximum stress (psi)	851,300	755,700	62,800
-Maximum stress location	Upper arm-to-frame transition	Upper arm-to-frame transition	Around the upper opening / mounting edge
-Maximum displacement (in)	1.333	0.7192	0.01493
-Maximum displacement location	Lower cylinder / free end	Lower cylinder / free end	Lower cylinder / free end
-Mass (lb)	0.58	0.62	1.21
-Minimum factor of safety	0.047	0.053	0.64
-Elements in finest mesh	222,098	258,400	857,837
+<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
 
 
 # Convergence check
-Design	Run 2 → 3 stress change	Run 2 → 3 displacement change	Stress within 7%?	Displacement within 7%?
-1	53.75%	0.30%	No	Yes
-2	7.51%	1.15%	No	Yes
-3	69.36%	1.22%	No	Yes
+<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
 
 
 The deflection results were within 7% between the final two meshes for all three designs, but the peak stress never converged within 7%. Because I had already completed three mesh runs for each design, I used the finest mesh values as directed. This does not mean the reported peak stress is fully mesh-independent. The highest stress is close to corners and the mounting region, so a localized stress concentration or an overly restrictive fixed boundary might be affecting the result.
@@ -214,10 +212,9 @@ I also learned that the shape of the load path can make a bigger difference than
 If I continued the project, I would first investigate the high-stress region near the top mounting opening and test smooth fillets or revised transitions. I would also recheck the fixed boundary conditions, refine the mesh locally, and try to remove material from areas that show low stress. These are future improvements, not simulations that I have already completed.
 
 # Communicate
-Time spent: [Enter your actual hours]
+Time spent: 6-8 Hours ( Went down a rabbit hole)
 
-CAD file: [Add a working link to download your SOLIDWORKS part file — required for submission]
+CAD file: https://github.com/Agraha74/megr2157-portfolio/blob/main/docs/assignments/A07/Megr%202157%20A6.SLDPRT
 
-Final conclusion: Design 3 had the best structural performance out of the three designs I tested. It greatly reduced stress and deflection, but it added mass and still did not meet the required factor of safety or maximum deflection. The next step would be another geometry iteration and a closer investigation of the concentrated peak stresses.
+Conclusion: Design 3 had the best structural performance out of the three designs I tested. It greatly reduced stress and deflection, but it added mass and still did not meet the required factor of safety or maximum deflection. The next step would be another geometry iteration and a closer investigation of the concentrated peak stresses.
 
-<img width="500" height="500" alt="Screenshot 2026-10-23 175118 (1).jpg" src="Screenshot 2026-10-23 175118 (1).jpg">
