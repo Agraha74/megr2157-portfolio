@@ -206,13 +206,12 @@ For the finest mesh of Design 3:
 FOS = 39,890 / 62,800 = 0.635 ≈ 0.64
 
 The medium mesh of Design 3 gave a factor of safety of about 1.1, but the finest mesh lowered this to 0.64. This is why I cannot use 1.1 as my final result. To reach my A6 target of FOS = 4, the stress would need to be at or below about 10,000 psi. The Design 3 displacement of 0.01493 in also exceeds my A6 deflection limit of 0.005 in. Design 3 is a major improvement but still does not meet my original design requirements.
-Reflections
+
+# Reflections
 
 This assignment showed me how much the results of a simulation can change as the mesh gets finer. In Design 3, the deflection was almost unchanged between the last two runs, but the maximum stress increased substantially. I learned that I have to check both stress and displacement rather than trusting one result or using a larger factor of safety from a less refined simulation.
 
-I also learned that the shape of the load path can make a bigger difference than simply adding a little material. The second vertical support helped reduce bending, but the wider and more continuous support in Design 3 produced a much larger improvement. However, it also increased the mass from 0.58 lb to 1.21 lb, so I still need to work on the balance between stiffness, strength, and weight.
-
-If I continued the project, I would first investigate the high-stress region near the top mounting opening and test smooth fillets or revised transitions. I would also recheck the fixed boundary conditions, refine the mesh locally, and try to remove material from areas that show low stress. These are future improvements, not simulations that I have already completed.
+The second vertical support helped reduce bending, but the wider and more continuous support in Design 3 produced a much larger improvement. However, it also increased the mass from 0.58 lb to 1.21 lb, so I still need to work on the balance between stiffness, strength, and weight.
 
 # Communicate
 Time spent: 6-8 Hours ( Went down a rabbit hole)
