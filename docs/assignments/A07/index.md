@@ -2,16 +2,27 @@
 
 # Objective
 The objective of this assignment is to use Finite Element Analysis (FEA) in SOLIDWORKS to improve the strength and stiffness of my bracket from A6 while keeping its mass as low as possible. I will use static simulations to check stress, deflection, and factor of safety, and I will compare three geometry designs. For each design, I will run three different mesh refinements before making the next geometry change.
+
 Design requirements
+
 The bracket attaches to a rigid T-beam and supports a strap through the lower cylindrical feature. I kept the same 6061-T6 aluminum material used in A6, as required by the assignment.
+
 - Material: aluminum 6061-T6
+  
 - Yield strength used in the SOLIDWORKS FEA: 39,890 psi (approximately 40,000 psi in A6)
+  
 - Elastic modulus used for my earlier A6 calculations: 10,000,000 psi
+  
 - Required design factor of safety from A6: 4
+  
 - Allowable stress from my A6 calculation: 40,000 / 4 = 10,000 psi (approximately 9,972.5 psi using the simulation yield strength)
+  
 - Maximum allowable deflection from A6: 0.005 in
+  
 - Applied FEA load: 1,400 lbf, downward on the selected curved surface of the bottom cylindrical support
+  
 - Mesh convergence requirement: 7% difference between successive results; after three attempts, use the finest mesh if the results have not converged
+  
 The mounting feature also follows the previous A6 interface dimensions: a = 0.498 in, b = 0.9992 in, and c = 1.499 in. I did not change the assigned material while optimizing the geometry.
 
 # Initial CAD model
