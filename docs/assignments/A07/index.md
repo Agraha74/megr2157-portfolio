@@ -119,13 +119,13 @@ For run 2, the mesh contained 57,512 elements. The maximum von Mises stress was 
 D2-3 – Finest mesh
 For run 3, the mesh contained 258,400 elements. The maximum von Mises stress was 755,700 psi, the maximum displacement was 0.7192 in, and the minimum factor of safety was 0.053.
 
-<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
+<img width="500" height="500" alt="Screenshot 2026-10-23 204137.jpg" src="Screenshot 2026-10-23 204137.jpg">
 
-<img width="500" height="500" alt="Screenshot 2026-10-23 203052.jpg" src="Screenshot 2026-10-23 203052.jpg">
+<img width="500" height="500" alt="Screenshot 2026-10-23 204153.jpg" src="Screenshot 2026-10-23 204153.jpg">
 
-<img width="500" height="500" alt="Screenshot 2026-10-23 203106.jpg" src="Screenshot 2026-10-23 203106.jpg">
+<img width="500" height="500" alt="Screenshot 2026-10-23 204224.jpg" src="Screenshot 2026-10-23 204224.jpg">
 
-<img width="500" height="500" alt="Screenshot 2026-10-23 203122.jpg" src="Screenshot 2026-10-23 203122.jpg">
+<img width="500" height="500" alt="Screenshot 2026-10-23 213349.jpg" src="Screenshot 2026-10-23 213349.jpg">
 
 
 D2 – Resulting data
