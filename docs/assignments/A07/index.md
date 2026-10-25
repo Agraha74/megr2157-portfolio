@@ -19,7 +19,7 @@ The bracket attaches to a rigid T-beam and supports a strap through the lower cy
   
 - Maximum allowable deflection from A6: 0.005 in
   
-- Applied FEA load: 1,400 lbf, downward on the selected curved surface of the bottom cylindrical support
+- Applied FEA load: 1,400 lbf(F= 700, W=2F), downward on the selected curved surface of the bottom cylindrical support
   
 - Mesh convergence requirement: 7% difference between successive results; after three attempts, use the finest mesh if the results have not converged
   
