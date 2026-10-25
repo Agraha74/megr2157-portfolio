@@ -89,6 +89,7 @@ The original bracket had the lowest mass, but it experienced severe bending and 
 
 # Design 2 – Added vertical reinforcement
 For the second design, I added another support alongside the original arm connecting the lower cylinder to the mounting bracket. This increased the amount of material slightly, but I wanted to see whether dividing the load between the members would reduce the amount of bending.
+
 <img width="500" height="500" alt="Screenshot 2026-10-23 202004.jpg" src="Screenshot 2026-10-23 202004.jpg">
 
 D2-1 – Coarse mesh
@@ -128,18 +129,18 @@ For run 3, the mesh contained 258,400 elements. The maximum von Mises stress was
 
 
 D2 – Resulting data
-Simulation	Elements	Max. stress (psi)	Max. displacement (in)	Min. FOS	Stress change	Displacement change
-1	9,776	537,300	0.6772	0.074	—	—
-2	57,512	702,900	0.711	0.057	30.82%	4.99%
-3	258,400	755,700	0.7192	0.053	7.51%	1.15%
+
+<img width="500" height="500" alt="A7_Design_2_Results.jpg" src="A7_Design_2_Results.jpg">
 
 
 Mass: 0.62 lb.
+
 Design 2 – Discussion about data and changes
 Adding the support reduced the finest-mesh displacement from 1.333 in to 0.7192 in, a reduction of about 46.1%. The maximum stress fell by about 11.2%, but it was still concentrated near the upper bracket connection. The factor of safety was only 0.053, so the change improved stiffness without fixing the strength problem. I moved on to a more substantial geometry change rather than just adding another narrow support.
 
 # Design 3 – Wider, reinforced support
 For Design 3, I changed the geometry more significantly. I added material around the upper mounting section and made the load path down to the cylinder wider and more continuous. This was intended to reduce bending and spread the applied load over a larger area. The extra material also made this the heaviest design.
+
 <img width="500" height="500" alt="Screenshot 2026-10-24 202424.jpg" src="Screenshot 2026-10-24 202424.jpg">
 
 D3-1 – Coarse mesh
@@ -176,20 +177,20 @@ For run 3, the mesh contained 857,837 elements. The maximum von Mises stress was
 <img width="500" height="500" alt="Screenshot 2026-10-24 204618.jpg" src="Screenshot 2026-10-24 204618.jpg">
 
 D3 – Resulting data
-<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
+<img width="500" height="500" alt="A7_Design_3_Results.jpg" src="A7_Design_3_Results.jpg">
 
 
 Mass: 1.21 lb.
 Design 3 – Discussion about data and changes
-The thicker support made the largest difference. At the finest mesh the displacement was down to 0.01493 in and the maximum stress was 62,800 psi. The stress was much lower than in the first two designs, but the minimum factor of safety still came out to 0.64. The medium mesh had suggested a factor of safety of about 1.1; the finer mesh revealed a higher peak stress and a lower safety factor. This was an important reminder that results 
+The thicker support made the largest difference. At the finest mesh, the displacement was down to 0.01493 in, and the maximum stress was 62,800 psi. The stress was much lower than in the first two designs, but the minimum factor of safety still came out to 0.64. The medium mesh had suggested a factor of safety of about 1.1; the finer mesh revealed a higher peak stress and a lower safety factor. This was an important reminder that results 
 from one mesh are not enough to justify a design.
 
 # Final design comparison
-<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
+<img width="500" height="500" alt="A7_Final_Design_Comparison.jpg" src="A7_Final_Design_Comparison.jpg">
 
 
 # Convergence check
-<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
+<img width="500" height="500" alt="A7_Convergence_Check.jpg" src="A7_Convergence_Check.jpg">
 
 
 The deflection results were within 7% between the final two meshes for all three designs, but the peak stress never converged within 7%. Because I had already completed three mesh runs for each design, I used the finest mesh values as directed. This does not mean the reported peak stress is fully mesh-independent. The highest stress is close to corners and the mounting region, so a localized stress concentration or an overly restrictive fixed boundary might be affecting the result.
