@@ -69,6 +69,7 @@ For run 2, the mesh contained 47,722 elements. The maximum von Mises stress was 
 
 D1-3 – Finest mesh
 For run 3, the mesh contained 222,098 elements. The maximum von Mises stress was 851,300 psi, the maximum displacement was 1.333 in, and the minimum factor of safety was 0.047.
+
 <img width="500" height="500" alt="Screenshot 2026-10-23 195917.jpg" src="Screenshot 2026-10-23 195917.jpg">
 
 <img width="500" height="500" alt="Screenshot 2026-10-23 201248.jpg" src="Screenshot 2026-10-23 201248.jpg">
@@ -76,8 +77,10 @@ For run 3, the mesh contained 222,098 elements. The maximum von Mises stress was
 <img width="500" height="500" alt="Screenshot 2026-10-23 201248.jpg" src="Screenshot 2026-10-23 201248.jpg">
 
 <img width="500" height="500" alt="Screenshot 2026-10-23 195802 (1).jpg" src="Screenshot 2026-10-23 195802 (1).jpg">
+
 D1 – Resulting data
 
+<img width="500" height="500" alt="A7_Design_1_Results.jpgg" src="A7_Design_1_Results.jpg">
 
 Mass: 0.58 lb.
 
@@ -86,28 +89,43 @@ The original bracket had the lowest mass, but it experienced severe bending and 
 
 # Design 2 – Added vertical reinforcement
 For the second design, I added another support alongside the original arm connecting the lower cylinder to the mounting bracket. This increased the amount of material slightly, but I wanted to see whether dividing the load between the members would reduce the amount of bending.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 202004.png — Design 2 CAD model and mass properties (0.62 lb). Insert your own GitHub image Markdown beneath this comment. -->
+<img width="500" height="500" alt="Screenshot 2026-10-23 202004.jpg" src="Screenshot 2026-10-23 202004.jpg">
 
 D2-1 – Coarse mesh
 For run 1, the mesh contained 9,776 elements. The maximum von Mises stress was 537,300 psi, the maximum displacement was 0.6772 in, and the minimum factor of safety was 0.074.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 202222.png — Design 2, run 1: mesh details and element count. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 202545.png — Design 2, run 1: von Mises stress plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 202634.png — Design 2, run 1: displacement plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 202700.png — Design 2, run 1: factor-of-safety plot. Insert your own GitHub image Markdown beneath this comment. -->
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 202222.jpg" src="Screenshot 2026-10-23 202222.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 202545.jpg" src="Screenshot 2026-10-23 202545.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 202634.jpg" src="Screenshot 2026-10-23 202634.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 202700.jpg" src="Screenshot 2026-10-23 202700.jpg">
+
 
 D2-2 – Medium mesh
 For run 2, the mesh contained 57,512 elements. The maximum von Mises stress was 702,900 psi, the maximum displacement was 0.711 in, and the minimum factor of safety was 0.057.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 203029.png — Design 2, run 2: mesh details and element count. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 203052.png — Design 2, run 2: von Mises stress plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 203106.png — Design 2, run 2: displacement plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 203122.png — Design 2, run 2: factor-of-safety plot. Insert your own GitHub image Markdown beneath this comment. -->
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 195917.jpg" src="Screenshot 2026-10-23 195917.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 201248.jpg" src="Screenshot 2026-10-23 201248.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 201248.jpg" src="Screenshot 2026-10-23 201248.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 195802 (1).jpg" src="Screenshot 2026-10-23 195802 (1).jpg">
+
 
 D2-3 – Finest mesh
 For run 3, the mesh contained 258,400 elements. The maximum von Mises stress was 755,700 psi, the maximum displacement was 0.7192 in, and the minimum factor of safety was 0.053.
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 204137.png — Design 2, run 3: mesh details and element count. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 204153.png — Design 2, run 3: von Mises stress plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 204224.png — Design 2, run 3: displacement plot. Insert your own GitHub image Markdown beneath this comment. -->
-<!-- ADD PHOTO HERE: Screenshot 2026-10-23 213349.png — Design 2, run 3: factor-of-safety plot. Insert your own GitHub image Markdown beneath this comment. -->
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 203029.jpg" src="Screenshot 2026-10-23 203029.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 203052.jpg" src="Screenshot 2026-10-23 203052.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 203106.jpg" src="Screenshot 2026-10-23 203106.jpg">
+
+<img width="500" height="500" alt="Screenshot 2026-10-23 203122.jpg" src="Screenshot 2026-10-23 203122.jpg">
+
 
 D2 – Resulting data
 Simulation	Elements	Max. stress (psi)	Max. displacement (in)	Min. FOS	Stress change	Displacement change
