@@ -3,9 +3,9 @@
 
 ## Objective
 
-The objective of this assignment was to design a gearbox that could be assembled and disassembled. I needed to check the strength of the input and output shafts, design journal bearings to support both shafts, and create a two-piece housing in SOLIDWORKS. I also needed to make sure the gears had enough clearance to rotate freely and that the housing could be taken apart.
+The objective of this assignment was to design a gearbox that could be assembled and disassembled. I needed to check the strength of the input and output shafts, design journal bearings to support both shafts, and create a two-piece housing in SOLIDWORKS. I also needed to ensure the gears had enough clearance to rotate freely and that the housing could be disassembled.
 
-The gearbox uses two spur gears with a 24:9 gear ratio. The output gear has a torque of 1.25 in-lbf and rotates at 1,100 rpm. The input and output shafts have diameters of 0.125 in and 0.250 in, and both shafts are 1 in long.
+The gearbox uses two spur gears with a 24:9 gear ratio. The output gear delivers 1.25 in-lbf of torque and rotates at 1,100 rpm. The input and output shafts have diameters of 0.125 in and 0.250 in, and both shafts are 1 in long.
 
 ### Design requirements
 
@@ -32,23 +32,17 @@ The first step was determining whether the given shaft diameters were strong eno
 
 I used 4140 steel for the shafts and referenced the strength information in Machinery's Handbook. Since the gear train was assumed to be ideal, I could use the gear ratio to calculate the input torque and speed.
 
+<img width="500" height="500" alt="1.jpg" src="1.jpg">
+
 I started with the input shaft and used the gear ratio to determine the speed and torque. I then used the torsional shear stress equation for a solid circular shaft to check the given diameter.
 
-The equations I used were:
-
 I used the same shear stress equation for the output shaft, but with its larger diameter and the given output torque.
 
-<img width="500" height="500" alt="1.jpg" src="1.jpg">
-I used the same shear stress equation for the output shaft, but with its larger diameter and the given output torque.
-
-
-After solving symbolically, I plugged in my values to calculate the actual stresses in the shafts.
+<img width="500" height="500" alt="2.jpg" src="2.jpg">
 
 The input shaft had the higher torsional shear stress even though it transmitted less torque. This was because its diameter was much smaller than the output shaft's diameter.
 
 Both calculated stresses were well below the material strength value I referenced. Based on this simplified torsional stress check, I determined that both given shaft diameters were sufficient.
-
-<img width="500" height="500" alt="2.jpg" src="2.jpg">
 
 ### Journal bearing design
 
@@ -56,34 +50,25 @@ Once I finished the shaft calculations, I moved on to designing the journal bear
 
 I decided to use two bearings per shaft. To select the bearings, I needed to determine the pressure, sliding velocity, and PV rating. These values would help me choose an appropriate bearing material.
 
-
-
 I first found the tangential force from the gears and used the bearing loading assumptions to determine the approximate force on each bearing.
-
-
 
 I used an estimated load of approximately 1.33 lbf per bearing from my bearing calculations. I then worked through the equations for both the input and output bearings.
 
 <img width="500" height="500" alt="3.jpg" src="3.jpg">
 
-**Input bearing numerical results**
-
 For the input shaft, I selected a bearing length of 0.125 in, which matched the shaft diameter.
 
 Because the input shaft rotates at a higher speed, the bearing experienced a higher sliding velocity and PV rating.
 
-**Output bearing numerical results**
-
 For the output shaft, I selected a bearing length of 0.250 in.
 
-
 The output bearing had a lower pressure and PV rating because of its larger projected area and lower rotational speed.
+
+<img width="500" height="500" alt="4.jpg" src="4.jpg">
 
 After calculating these values, I referenced the plain bearing material information in Machinery's Handbook to compare different materials.
 
 I selected bronze as the candidate material for the input bearing because it needed to handle the higher PV value. For the output bearing, I selected acetal as a candidate because it operated at a lower pressure and sliding velocity. The exact catalog limits and operating conditions would still need to be checked before manufacturing.
-
-<img width="500" height="500" alt="4.jpg" src="4.jpg">
 
 ### Bearing wall thickness
 
