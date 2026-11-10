@@ -234,5 +234,3 @@
 
 
   I spent 4 hours on this assignment 
-  supported, and operated under the intended conditions.
-</p>
