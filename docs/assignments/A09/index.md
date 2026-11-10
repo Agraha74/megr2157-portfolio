@@ -228,9 +228,7 @@
   calculated minimum dimension and a practical component
   selection. Both the belt and shaft required rounding up to
   available sizes, while the journal bearing design required
-  checking material ratings and clearances. This showed me
-  that engineering design involves more than solving equations;
-  it also requires selecting components that can be assembled,
+  checking material ratings and clearances. 
 
 
   I spent 4 hours on this assignment 
