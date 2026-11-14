@@ -48,6 +48,6 @@ These results use an assumed friction coefficient of 0.15 and exclude bearing fr
 
 4. Leadscrew Selection
 
-After evaluating the calculations, we selected the following leadscrew 
+After evaluating the calculations, I've selected the following leadscrew 
 
 https://www.mcmaster.com/98935A803/
