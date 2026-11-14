@@ -1,6 +1,6 @@
 # A10 – Lead Screw Translating System
 
-My Part: Lead Screw Dia
+## My Part: Lead Screw Dia
 
 ## Objective
 The objective of this assignment was to determine the minimum leadscrew diameter, required rotational speed, and maximum operating torque for a mechanically driven tensile testing machine. The tensile tester must apply a 
