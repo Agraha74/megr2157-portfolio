@@ -18,7 +18,7 @@ maximum axial load of 2,000 N while maintaining a controllable crosshead speed b
 
 -Minimum leadscrew length: 18 inches
 
-- Power system: Purely mechanical
+-Power system: Purely mechanical
 
 ## Minimum Leadscrew Diameter
 
