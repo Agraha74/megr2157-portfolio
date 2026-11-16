@@ -9,10 +9,15 @@ maximum axial load of 2,000 N while maintaining a controllable crosshead speed b
 ## Design Requirements
 
 -Maximum tensile load: 2,000 N
+
 -Number of leadscrews: 2
+
 -Safety factor: 4
+
 -Crosshead speed: 1–50 mm/min
+
 -Minimum leadscrew length: 18 inches
+
 - Power system: Purely mechanical
 
 ## Minimum Leadscrew Diameter
