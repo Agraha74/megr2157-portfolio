@@ -93,6 +93,20 @@ https://www.mcmaster.com/95072A881/
 https://www.onlinemetals.com/en/buy/aluminum/0-5-x-1-aluminum-rectangle-bar-6061-t6511-extruded/pid/1165?variant=1165_96_0&msclkid=ef2afa38267310de65a290c3eced65f8&utm_source=bing&utm_medium=cpc&utm_campaign=%5BRithum%5D%20%5BShopping%5D-%20Top%20Materials&utm_term=4580840345287860&utm_content=Aluminum
 
 
+
+## Caleb Burnham- Cross-Head Design
+
+<img width="2552" height="3474" alt="IMG_3825" src="https://github.com/user-attachments/assets/9a3c8a7e-2f09-40d8-b890-08d930dac972" />
+
+<img width="2386" height="2936" alt="IMG_3826" src="https://github.com/user-attachments/assets/a7bd726d-b21d-4030-ad6d-17813fff91c2" />
+
+<img width="2261" height="1308" alt="IMG_3827" src="https://github.com/user-attachments/assets/6d27b6ae-88a8-4ab4-a292-d5b9df060690" />
+
+Cross head was designed to be more than capable of handling forces. Designed with an SF of almost 14x what was required.
+
+##Communicate
+Reviewed concepts from solids like stress, bending moments, and deflection. This part took me 2 hours to complete. 
+
 CAD:
 
 [Tension Testing rig.zip](https://github.com/user-attachments/files/34950602/Tension.Testing.rig.zip)
