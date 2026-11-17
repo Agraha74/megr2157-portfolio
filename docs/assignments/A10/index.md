@@ -102,13 +102,12 @@ https://www.onlinemetals.com/en/buy/aluminum/0-5-x-1-aluminum-rectangle-bar-6061
 
 <img width="2261" height="1308" alt="IMG_3827" src="https://github.com/user-attachments/assets/6d27b6ae-88a8-4ab4-a292-d5b9df060690" />
 
-Cross head was designed to be more than capable of handling forces. Designed with an SF of almost 14x what was required.
-
-##Communicate
-Reviewed concepts from solids like stress, bending moments, and deflection. This part took me 2 hours to complete. 
+The crosshead was designed to be more than capable of handling forces. Designed with an SF of almost 14x what was required.
 
 CAD:
 
 [Tension Testing rig.zip](https://github.com/user-attachments/files/34950602/Tension.Testing.rig.zip)
+
+My partners: Tyler Sefcovic and Caleb Burnham
 
 
