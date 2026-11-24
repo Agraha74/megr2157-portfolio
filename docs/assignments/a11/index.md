@@ -84,7 +84,7 @@ A reinforced 90-degree gusseted corner bracket was selected to connect the horiz
 [<!-- INSERT PHOTO: Selected mounting bracket from supplier -->](https://www.mcmaster.com/47065T762/)
 
 
-<img width="500" height="500" alt="A10 2.jpg" src="A11 12.jpg">
+<img width="500" height="500" alt="A11 12.jpg" src="A11 12.jpg">
 
 ---
 
